@@ -9,7 +9,7 @@ line, = ax.plot(x, np.sin(x))  # Initial plot with a sine wave
 
 # Function to update the data for each frame
 def update(frame):
-    line.set_ydata(np.sin(x * frame / 10))  # Shift the sine wave
+    line.set_ydata(np.sin(x * frame / 10))  # Shift the sine wave 
     return line,
 
 # Create the animation
